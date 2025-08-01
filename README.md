@@ -3,7 +3,7 @@ Portfolio presenting practical skills in Security Analysis and Linux Operating S
 
 Welcome to my portfolio focused on **Linux SysAdmin** and **Security Analyst** roles. Here you will find scripts, configurations, scans, and practical reports that demonstrate my technical skills.
 
-# 🛡️ Anlysis Security
+# 🛡️ Security Anlysis
 - Port and service scans with Nmap
 - Vulnerability reports (Nessus/OpenVAS)
 - Guides on tools such as Metasploit and BurpSuite
