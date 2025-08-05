@@ -21,4 +21,4 @@ Comando: sudo nmap -p- --open --min-rate 5000 -n -Pn 172.17.0.2
   nmap -p22,80 -sCV 172.17.0.2
 - -p22,80 -> Especificamos que queremos escanear estos dos puertos
 - -sCV -> En nmap podemos "comprimir" los comandos, como este ejemplo "-sC" es "-sCV" incluye el parametro "-sV" prueba los puertos abiertos y muestra la version del servicio en ejecucion
-![Servicios](./images/servicios.png)
+![Servicios](./images/versionesServices.png)
