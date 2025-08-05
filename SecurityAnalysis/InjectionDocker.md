@@ -16,3 +16,9 @@ Comando: sudo nmap -p- --open --min-rate 5000 -n -Pn 172.17.0.2
 - -Pn -> Asume que todos los host se encuentran activos 
 - -oN -> Ouput normal 
 ![Reconocimiento](./images/reconocimientoNmap.png)
+2.- Una vez realizado el escaneo, vemos que tiene 2 puertos abiertos [22 - ssh]  y [80 - http]
+  Ahora realizaremos un escaneo especificamente a estos puertos, utilizando un conjunto de scripts incluidos en Nmap para reconocer la version de estos servicios.
+  nmap -p22,80 -sCV 172.17.0.2
+- -p22,80 -> Especificamos que queremos escanear estos dos puertos
+- -sCV -> En nmap podemos "comprimir" los comandos, como este ejemplo "-sC" es "-sCV" incluye el parametro "-sV" prueba los puertos abiertos y muestra la version del servicio en ejecucion
+![Servicios](./images/servicios.png)
