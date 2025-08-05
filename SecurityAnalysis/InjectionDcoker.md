@@ -1,10 +1,10 @@
 # 🐋 Docker Lab - Injection
 
-Difficulty: Very Easy
-SO: Linux 
+- Difficulty: Very Easy
+- SO: Linux 
 
 Primero desplegamos el contendor, esto se hace de manera automatizada. Ejecutando un script de bash que ta viene configurado. 
-![DespliegueDocker(./images/despliegue.png)
+![DespliegueDocker(./images/2025-08-05_03-53.png)
 
 # 🎯 Reconocimiento 
 Empezamos con un escaneo del contendor, como vimos este tiene la IP -> 172.17.0.2 ya que pertence al localhost
