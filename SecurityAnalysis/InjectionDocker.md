@@ -28,3 +28,24 @@ Comando: sudo nmap -p- --open --min-rate 5000 -n -Pn 172.17.0.2
 Como vemos, tiene el puerto 80 abierto, por lo tanto tiene una web levantada, visitemos la web. 
 ![Web](./images/web.png)
 
+1.- Por el nombre de la maquina "injection", pasare directamente a probar un SQL Injection  
+Una sentencia basica de SQL Injection "admin' or1=1-- -"  
+![SQLInjection](./images/sqlInjection.png)
+
+#Explicacion sentencia " admin' or 1=1-- - " 
+SELECT * FROM usuarios WHERE usuario = 'admin' OR 1=1-- -' AND contraseña = '';
+- admin' or 1=1-- - -> Hace que la sentencia sea valida si o si, ya que 1=1 siempre es verdadero
+- -- - -> Comenta el resto de la sentencia e ignora la validacion
+
+![Login](./images/login.png)
+
+
+
+
+
+
+
+
+
+
+
