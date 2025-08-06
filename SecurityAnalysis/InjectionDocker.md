@@ -50,7 +50,7 @@ Para realizar esto, buscaremos archivos con privilegios SUID
 Verificamos estos binarios en GTFOBins para corroborar cual tiene permisos SUID
 ![PrivSUID](./images/privSUID.png)
 
-En la misma web de GTFOBins, vemos como ejecutar este binario.<br>
+En la misma web de GTFOBins, vemos como ejecutar este binario.
 Utilizando el siguiente comando
 /usr/bin/env /bin/bash -p
 ![Root](./images/root.png)
