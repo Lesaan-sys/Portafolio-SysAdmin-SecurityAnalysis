@@ -39,6 +39,8 @@ SELECT * FROM usuarios WHERE usuario = 'admin' OR 1=1-- -' AND contraseña = '';
 
 ![Login](./images/login.png)
 
+2.- Bien, como vemos el login tiene un nombre de usuario "Dylan" y si recordamos, al realizar el reconocimiento vimos el puerto 22 (SSH) abierto, asi que inentaremos una conexion SSH usando el nombre de usuario "Dylan" y la contraseña que acabmos de conseguir.
+![SSH](./images/ssh.png)
 
 
 
