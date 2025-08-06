@@ -42,12 +42,20 @@ SELECT * FROM usuarios WHERE usuario = 'admin' OR 1=1-- -' AND contraseña = '';
 2.- Bien, como vemos el login tiene un nombre de usuario "Dylan" y si recordamos, al realizar el reconocimiento vimos el puerto 22 (SSH) abierto, asi que inentaremos una conexion SSH usando el nombre de usuario "Dylan" y la contraseña que acabmos de conseguir.
 ![SSH](./images/ssh.png)
 
+3.- Escalada de privilegios<br>
+Una vez dentro del sistema, inentaremos una escalada de privilegios<br>
+Para realizar esto, buscaremos archivos con privilegios SUID
+![SUID](./images/SUID.png)
 
+Verificamos estos binarios en GTFOBins para corroborar cual tiene permisos SUID
+![PrivSUID](./images/privSUID.png)
 
+En la misma web de GTFOBins, vemos como ejecutar este binario.<br>
+Utilizando el siguiente comando
+/usr/bin/env /bin/bash -p
+![Root](./images/root.png)
 
-
-
-
+Asi conseguimos una shell con usuario root! 
 
 
 
