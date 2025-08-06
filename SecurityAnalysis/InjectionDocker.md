@@ -22,4 +22,9 @@ Comando: sudo nmap -p- --open --min-rate 5000 -n -Pn 172.17.0.2
 - -p22,80 -> Especificamos que queremos escanear estos dos puertos
 - -sC -> Ejecuta un conjunto de scripts por default -sCV
 - -sV -> Escanea puertos abiertos y las versiones de los servicios en ejecucion -sCV
-![Servicios](./images/versionesServices.png)
+![Servicios](./images/versionesServices.png) <br>
+
+# 💥 Explotacion 
+Como vemos, tiene el puerto 80 abierto, por lo tanto tiene una web levantada, visitemos la web. 
+![Web](./images/web.png)
+
