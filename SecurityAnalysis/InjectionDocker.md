@@ -52,7 +52,7 @@ Verificamos estos binarios en GTFOBins para corroborar cual tiene permisos SUID
 
 En la misma web de GTFOBins, vemos como ejecutar este binario.
 Utilizando el siguiente comando
-/usr/bin/env /bin/bash -p
+/usr/bin/env /bin/sh -p
 ![Root](./images/root.png)
 
 Asi conseguimos una shell con usuario root! 
