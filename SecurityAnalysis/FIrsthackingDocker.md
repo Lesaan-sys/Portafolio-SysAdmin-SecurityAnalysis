@@ -16,7 +16,7 @@ nmap -p- --open -T5 -n -Pn 172.17.0.2
 Para verificar si esta version es vulnerable, hay varias opciones
 - 1.- Realizar pruebas
 - 2.- Investigar directamente en internet
-- 3. Utilizando Metasploit (Ya sera en otra ocasion:))
+- 3.- Utilizando Metasploit (Ya sera en otra ocasion:))
 Para abarcar mas, usaremos 2 opciones<br>
 1.- Pruebas
   Lo primero, conectarnos al servicio FTP con el siguiente comando "telnet <IP> <PORT>" -> telnet 172.17.0.2 21
