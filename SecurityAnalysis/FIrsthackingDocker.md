@@ -18,6 +18,8 @@ Para verificar si esta version es vulnerable, hay varias opciones
 - 2.- Investigar directamente en internet
 - 3.- Utilizando Metasploit (Ya sera en otra ocasion:))
 Para abarcar mas, usaremos 2 opciones<br>
+
+#💥 Explotacion
 1.- Pruebas
   Lo primero, conectarnos al servicio FTP con el siguiente comando "telnet <IP> <PORT>" -> telnet 172.17.0.2 21
   ![ConFTP](./images/FHImages/conexionFTP.png)<br>
@@ -37,8 +39,8 @@ Usamos whoami para ver a que nivel tenemos la shell
 Bien, como vemos conseguimos una shell a nivel root, lo que siginica que este laboratorio esta comprometido.
 
 2.- Investigar en internet
-- ESte metodo no es tan complicado, ya que pegamos directamente en google la version del servicio y buscamos alguna web que nos de el CVE de la version.
-En este caso, yo utilizare un script creado por @padsalatushal
+- Este metodo es mas sencillo, ya que pegamos directamente en google la version del servicio y buscamos alguna web que nos de el CVE de la version.
+En este caso, yo utilizare un script creado por @padsalatushal de github
 #Requisitos para el exploit<br>
 Como el script fue creado para la version 3.12 de python y al menos mi version es la 3.13 (Actualmente), la libreria "telnet" la cual usa este script no es compatible con la version 3.13, por ende tenemos que descargar la libreria directemente en la carpeta donde se haya creado el exploit.py
 Siendo de la siguiente manera:
@@ -50,5 +52,5 @@ Bien, para solucionar esto debemos editar el archivo "telnet.py" y buscar la lin
 Una vez comentado, podemos ejecutar el codigo de manera normal agregando los parametros que nos pide.
 ![SHELLPYTHON](./images/FHImages/shellPY.png)<br>
 
-
+Y asi terminamriamos este laboratorio, utilizando dos maneras diferentes! 
   
