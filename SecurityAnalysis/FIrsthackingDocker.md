@@ -1,6 +1,6 @@
 🐋 Docker Lab - First hacking  
-Difficulty: Very easy<br>
-SO: Linux
+- Difficulty: Very easy<br>
+- SO: Linux
 
 #🎯 Reconocimiento
 1.- Empezamos lanzando un escaneo con nmap<br>
