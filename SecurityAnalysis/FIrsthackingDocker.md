@@ -10,4 +10,4 @@ nmap -p- --open -T5 -n -Pn 172.17.0.2
 - -T5 -> Planilla de tiempo, en este caso elegimos la mas agresiva ya que estamos en local.
 - -n -> Para que no ejecute resolucion DNS
 - -Pn -> Asume que todos los host de una red se encuentran encendidos.
-![NMAP](./images/FH/nmap.png)<br>
+![NMAP](./images/FHImages/nmap.png)<br>
