@@ -53,4 +53,7 @@ Una vez comentado, podemos ejecutar el codigo de manera normal agregando los par
 ![SHELLPYTHON](./images/FHImages/shellPY.png)<br>
 
 Y asi terminamriamos este laboratorio, utilizando dos maneras diferentes! 
+
+# Agradecimiento
+Esta documentacion utiliza un script creado por [@npadsalatushal](https://github.com/padsalatushal)
   
