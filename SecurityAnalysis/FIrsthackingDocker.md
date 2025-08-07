@@ -26,7 +26,7 @@ Para abarcar mas, usaremos 2 opciones<br>
   Una vez conectados, tendremos que usar un usuario y agregar un password.
   Investigando un poco, parece que este backdoor se activa con ":)", agregado en 2011 cuando fue comprometido el sitio oficial.
   Sabiendo esto, probemos con "USER:admin:)" "PASS:whatever"
-  ![TELNET](/./images/FHImages/telnet.png)
+  ![TELNET](./images/FHImages/telnet.png)
 
 - Una vez logeados vemos como la consola no responde, se comporta de manera extraña, no permite ni usar ctrl+c
 ![WEIRD](./images/FHImages/weird.png)
