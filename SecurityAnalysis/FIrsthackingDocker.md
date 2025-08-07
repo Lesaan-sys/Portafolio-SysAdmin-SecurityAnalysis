@@ -40,7 +40,7 @@ Bien, como vemos conseguimos una shell a nivel root, lo que siginica que este la
 
 2.- Investigar en internet
 - Este metodo es mas sencillo, ya que pegamos directamente en google la version del servicio y buscamos alguna web que nos de el CVE de la version.
-En este caso, yo utilizare un script creado por @padsalatushal de github
+En este caso, yo utilizare un script creado por @padsalatushal de github  
 #Requisitos para el exploit<br>
 Como el script fue creado para la version 3.12 de python y al menos mi version es la 3.13 (Actualmente), la libreria "telnet" la cual usa este script no es compatible con la version 3.13, por ende tenemos que descargar la libreria directemente en la carpeta donde se haya creado el exploit.py
 Siendo de la siguiente manera:
