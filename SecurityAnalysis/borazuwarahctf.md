@@ -1,6 +1,6 @@
 🐋 Docker Lab - borazuwarahctf<br>
-- - Difficulty: Very Easy
-- - SO:Linux
+- Difficulty: Very Easy
+- SO:Linux
 
 🎯 Reconocimiento
 1.- Empezamos con un reconocimiento con nmap:<br>
@@ -18,5 +18,5 @@ nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 - Puerto 22 [SSH]
 - Puerto 80 [HTTP]
   Veamo la web para saber que puede aportarnos.
-  ![WEB](./images/boraz8/web.jpg)
+  ![WEB](./images/boraz8/web.png)
   
