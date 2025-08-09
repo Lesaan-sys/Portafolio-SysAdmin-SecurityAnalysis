@@ -25,7 +25,7 @@ Comando: sudo nmap -p- --open --min-rate 5000 -n -Pn 172.17.0.2
 ![Servicios](./images/InjectionImages/versionesServices.png) <br>
 
 # 💥 Explotacion 
-Como vemos, tiene el puerto 80 abierto, por lo tanto tiene una web levantada, visitemos la web. 
+Tiene el puerto 80 abierto, por lo tanto tiene una web levantada, visitemos la web. 
 ![Web](./images/InjectionImages/web.png)
 
 1.- Por el nombre de la maquina "injection", pasare directamente a probar un SQL Injection  
@@ -39,7 +39,7 @@ SELECT * FROM usuarios WHERE usuario = 'admin' OR 1=1-- -' AND contraseña = '';
 
 ![Login](./images/InjectionImages/login.png)
 
-2.- Bien, como vemos el login tiene un nombre de usuario "Dylan" y si recordamos, al realizar el reconocimiento vimos el puerto 22 (SSH) abierto, asi que inentaremos una conexion SSH usando el nombre de usuario "Dylan" y la contraseña que acabmos de conseguir.
+2.- Bien, el login tiene un nombre de usuario "Dylan" y si recordamos, al realizar el reconocimiento vimos el puerto 22 (SSH) abierto, asi que inentaremos una conexion SSH usando el nombre de usuario "Dylan" y la contraseña que acabmos de conseguir.
 ![SSH](./images/InjectionImages/ssh.png)
 
 3.- Escalada de privilegios<br>
