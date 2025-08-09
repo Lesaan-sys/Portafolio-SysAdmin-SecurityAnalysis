@@ -13,3 +13,10 @@ nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 - -vvv -> Triple verbose, detalla cada puertos descubierto.
 - -oN Output normal  
 ![RECONOCIMIENTO](./images/boraz8/nmap.png)
+
+2.- Observamos que tiene 2 puertos expuestos<br>
+- Puerto 22 [SSH]
+- Puerto 80 [HTTP]
+  Veamo la web para saber que puede aportarnos.
+  ![WEB](./images/boraz8/web.jpg)
+  
