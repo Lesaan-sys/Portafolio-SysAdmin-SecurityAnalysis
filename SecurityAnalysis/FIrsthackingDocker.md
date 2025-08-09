@@ -12,7 +12,7 @@ nmap -p- --open -T5 -n -Pn 172.17.0.2
 - -Pn -> Asume que todos los host de una red se encuentran encendidos.
 ![NMAP](./images/FHImages/nmap.png)<br>
 
-2.- Como vemos, tenemos el puero 21 abierto, ejecutando el servico FTP con la verison vsftpd 2.3.4  
+2.- Tenemos el puero 21 abierto, ejecutando el servico FTP con la verison vsftpd 2.3.4  
 Para verificar si esta version es vulnerable, hay varias opciones
 - 1.- Realizar pruebas
 - 2.- Investigar directamente en internet
@@ -33,10 +33,10 @@ Para abarcar mas, usaremos 2 opciones<br>
 
 En otra terminal, nos conectaremos al puerto 6200 utilizando netcat "nc <IP> <PORT>" -> nc 172.17.0.2 6200
 ![SHELL](./images/FHImages/shell.png)<br>
-Como vemos, nos lanza una shell completamente funcional.
+No muestra una shell completamente funcional.
 Usamos whoami para ver a que nivel tenemos la shell
 ![ShellROOT](./images/FHImages/root.png)<br>
-Bien, como vemos conseguimos una shell a nivel root, lo que siginica que este laboratorio esta comprometido.
+Bien, conseguimos una shell a nivel root, lo que siginica que este laboratorio esta comprometido.
 
 2.- Investigar en internet
 - Este metodo es mas sencillo, ya que pegamos directamente en google la version del servicio y buscamos alguna web que nos de el CVE de la version.
