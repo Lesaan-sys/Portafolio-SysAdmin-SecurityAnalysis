@@ -12,4 +12,4 @@ nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 - -Pn -> Asume que todos los hosts se encuentran activos
 - -vvv -> Triple verbose, detalla cada puertos descubierto.
 - -oN Output normal  
-![RECONOCIMIENTO](./images/boraz8/nmap.jpg)
+![RECONOCIMIENTO](./images/boraz8/nmap.png)
