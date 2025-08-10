@@ -32,7 +32,7 @@ Ahora analizaremos la imagen con exiftool
 ![EXIFTOOL](./images/boraz8/exiftool.png)
 
 Hay un usuario, podemos probar con SSH, pero no tenemos contraseña. <br>
-Para conseguir esta contraseña, utilizaremos HYDRA con el siguiente comando.  
+Para conseguir esta contraseña, utilizaremos HYDRA para realizar un ataque de fuerza bruta, con el siguiente comando.  
 hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3     
 - -l -> Si se tiene el usuario, de lo contraio utilizar -L y un diccionario con nombres de usuario
 - -P -> Ya que no tenemos esta contraseña utilizamos un diccionario, en este caso rockyou.txt
