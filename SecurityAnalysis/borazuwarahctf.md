@@ -17,7 +17,7 @@ nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 2.- Observamos que tiene 2 puertos expuestos<br>
 - Puerto 22 [SSH]
 - Puerto 80 [HTTP]  
-  Veamos la web para saber que puede aportarnos.
+Veamos la web para saber que puede aportarnos.
   ![WEB](./images/boraz8/web.png)
 
 Bien, analicemos la imagen utilizando steghide.  
