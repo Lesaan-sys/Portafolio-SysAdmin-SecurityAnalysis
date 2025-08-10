@@ -40,14 +40,14 @@ hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3
 ![HYDRA](./images/boraz8/hydra.png)
 
 De acuerdo, ahora conectemonos al contenedor mediante SSH utilizando el usuario y password que conseguimos.<br>
-![SSH](./images/boraz8/ssh.png)
+![SSH](./images/boraz8/ssh.png)<br>
 
+Probemos enumeracicon de privilegios con "sudo -l"
+- sudo -l -> Muestra una lista de comandos que puede ejecutar sudo sin necesidad de la cotraseña.  
+![SUDO](./images/boraz8/sudo.png)
 
-
-
-
-
-
+Ahora ejecutemos esa bash que nos permite usar sin contraseña.
+![BASH](./images/boraz8/compro.png)
 
 
 
