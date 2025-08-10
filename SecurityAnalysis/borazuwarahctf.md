@@ -16,7 +16,40 @@ nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 
 2.- Observamos que tiene 2 puertos expuestos<br>
 - Puerto 22 [SSH]
-- Puerto 80 [HTTP]
-  Veamo la web para saber que puede aportarnos.
+- Puerto 80 [HTTP]  
+  Veamos la web para saber que puede aportarnos.
   ![WEB](./images/boraz8/web.png)
-  
+
+Bien, analicemos la imagen utilizando steghide.  
+steghide --extract -sf imagen.png<br>
+- --extract -> Extrae la informacion
+- -sf -> Extrae informacion de un archivo/imagen
+![STEGHIDE](./images/boraz8/steghide.png)<br>
+Hay un archivo .txt, lo leemos con "cat"
+![STEG1](./images/boraz8/setg2.png)<br>
+
+Ahora analizaremos la imagen con exiftool
+![EXIFTOOL](./images/boraz8/exiftool.png)
+
+Hay un usuario, podemos probar con SSH, pero no tenemos contraseña. <br>
+Para conseguir esta contraseña, utilizaremos HYDRA con el siguiente comando.  
+hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3     
+- -l -> Si se tiene el usuario, de lo contraio utilizar -L y un diccionario con nombres de usuario
+- -P -> Ya que no tenemos esta contraseña utilizamos un diccionario, en este caso rockyou.txt
+- ssh://172.17.0.3 -> Servicio y Servidor (Host)
+![HYDRA](./images/boraz8/hydra.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
