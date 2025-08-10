@@ -46,7 +46,7 @@ Probemos enumeracicon de privilegios con "sudo -l"
 - sudo -l -> Muestra una lista de comandos que puede ejecutar sudo sin necesidad de la cotraseña.  
 ![SUDO](./images/boraz8/sudo.png)
 
-Ahora ejecutemos esa bash que nos permite usar sin contraseña.
+Ahora ejecutemos esa bash que nos permite usar sin contraseña.<br>
 ![BASH](./images/boraz8/compro.png)
 
 
