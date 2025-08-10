@@ -49,7 +49,7 @@ Probemos enumeracicon de privilegios con "sudo -l"
 Ahora ejecutemos esa bash que nos permite usar sin contraseña.<br>
 ![BASH](./images/boraz8/compro.png)
 
-
+Tenemos una bash como root, este contenedor a sido comprometido!
 
 
 
