@@ -39,6 +39,8 @@ hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3
 - ssh://172.17.0.3 -> Servicio y Servidor (Host)
 ![HYDRA](./images/boraz8/hydra.png)
 
+De acuerdo, ahora conectemonos al contenedor mediante SSH utilizando el usuario y password que conseguimos.<br>
+![SSH](./images/boraz8/ssh.jpg)
 
 
 
