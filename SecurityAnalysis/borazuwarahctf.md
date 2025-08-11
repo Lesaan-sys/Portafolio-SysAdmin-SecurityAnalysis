@@ -4,7 +4,7 @@
 
 ## 🎯 Reconocimiento
 1.- Empezamos con un reconocimiento con nmap:<br>
-nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
+'''nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning'''
 - -p- -> Escanea todos los puertos (65535)
 - --open -> Reporta unicamente los puertos abiertos
 - --min-rate -> Envia paquetes no minimos a 5000
