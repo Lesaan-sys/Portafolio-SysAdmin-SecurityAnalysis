@@ -21,7 +21,7 @@ Veamos la web para saber que puede aportarnos.
 ![WEB](./images/boraz8/web.png)
 
 Bien, analicemos la imagen utilizando steghide.  
-steghide --extract -sf imagen.png<br>
+```steghide --extract -sf imagen.png<br>```
 - --extract -> Extrae la informacion
 - -sf -> Extrae informacion de un archivo/imagen
 ![STEGHIDE](./images/boraz8/steghide.png)<br>
@@ -35,7 +35,7 @@ Ahora analizaremos la imagen con exiftool
 
 Hay un usuario, podemos probar con SSH, pero no tenemos contraseña. <br>
 Para conseguir esta contraseña, utilizaremos HYDRA para realizar un ataque de fuerza bruta, con el siguiente comando.  
-hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3     
+```hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3 ``` 
 - -l -> Si se tiene el usuario, de lo contraio utilizar -L y un diccionario con nombres de usuario
 - -P -> Ya que no tenemos esta contraseña utilizamos un diccionario, en este caso rockyou.txt
 - ssh://172.17.0.3 -> Servicio y Servidor (Host)
@@ -44,7 +44,7 @@ hydra -l borazuwarah -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.3
 De acuerdo, ahora conectemonos al contenedor mediante SSH utilizando el usuario y password que conseguimos.<br>
 ![SSH](./images/boraz8/ssh.png)<br>
 
-Probemos enumeracicon de privilegios con "sudo -l"
+Probemos enumeracicon de privilegios con ```sudo -l```
 - sudo -l -> Muestra una lista de comandos que puede ejecutar sudo sin necesidad de la cotraseña.  
 ![SUDO](./images/boraz8/sudo.png)
 
