@@ -2,7 +2,7 @@
 - Difficulty: Very Easy
 - SO:Linux
 
-🎯 Reconocimiento
+## 🎯 Reconocimiento
 1.- Empezamos con un reconocimiento con nmap:<br>
 nmap -p- --open --min-rate 5000 -n -Pn -vvv 172.17.0.3 -oN scanning
 - -p- -> Escanea todos los puertos (65535)
@@ -30,6 +30,8 @@ Hay un archivo .txt, lo leemos con "cat"
 
 Ahora analizaremos la imagen con exiftool
 ![EXIFTOOL](./images/boraz8/exiftool.png)
+
+## 🧨 Explotacion
 
 Hay un usuario, podemos probar con SSH, pero no tenemos contraseña. <br>
 Para conseguir esta contraseña, utilizaremos HYDRA para realizar un ataque de fuerza bruta, con el siguiente comando.  
