@@ -10,7 +10,7 @@
 - -T5 -> Plantilla de tiempo (Agresivo)
 - -n Desactiva la resolucion DNS
 - -Pn Asume que todos los hosts se encuentran activos
-![NMAP](./images/breakssh/namp.png)
+![NMAP](./images/breakssh/nmap.png)
 
 El seervicio SSH se encuentra activo, ocupamos un nombre de usuario y una contraseña para poder logearnos. 
 
