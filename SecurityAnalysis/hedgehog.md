@@ -37,7 +37,7 @@ Ejecutando ''sudo -l'' vemos que el usuario "sonic" tiene permisos para ejecutar
 ![SUDOL](./images/hedgehog/sudol.png)  
 
 Entramos como el usuario "sonic" y una vez dentro ejecutamos una bash como root. 
-
+![ROOT](./images/hedgehog/root.png)  
 
 
 
