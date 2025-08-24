@@ -1,4 +1,4 @@
-🐋 Docker Lab - Breakmyssh
+🐋 Docker Lab - hedgehog
 
 Difficulty: Very Easy
 SO: Linux
