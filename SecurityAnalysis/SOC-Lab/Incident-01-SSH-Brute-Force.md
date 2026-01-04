@@ -1,4 +1,4 @@
-Objetivo: Simular ataque de Fuerza Brutaa un servidor mediante SSH, desde Windows hacia Ubuntu.
+:fire: Objetivo: Simular ataque de Fuerza Brutaa un servidor mediante SSH, desde Windows hacia Ubuntu.
 
 Fase 1.
 Verificar SSH en ubuntu
