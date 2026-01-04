@@ -1,6 +1,6 @@
 :fire: Objetivo: Simular ataque de Fuerza Brutaa un servidor mediante SSH, desde Windows hacia Ubuntu.
 
-Fase 1.
+:one: Fase 1.
 Verificar SSH en ubuntu
 sudo systemctl status ssh 
 <img width="1452" height="579" alt="imagen" src="https://github.com/user-attachments/assets/630ce4fc-8aa5-422e-b468-a42d94447b50" />
@@ -9,20 +9,20 @@ Confirma la IP del ubuntu.
 Verificar conexion SSH.
 <img width="625" height="232" alt="imagen" src="https://github.com/user-attachments/assets/90326444-77c6-4e02-a933-9d3d0f013703" />
 
-Fase 2. - Ataque controlado
+:two: Fase 2. - Ataque controlado
 *Ejecutar varias veces la conexion por ssh*
 ssh userrandom@192.168.174.137
 <img width="827" height="355" alt="imagen" src="https://github.com/user-attachments/assets/f2c2f025-dc15-47ba-9c61-365a0059c1da" />
 
-Fase 3. - Deteccion (WAZUH)
+:three: Fase 3. - Deteccion (WAZUH)
 sudo tail -f /var/log/auth.log
 <img width="912" height="502" alt="imagen" src="https://github.com/user-attachments/assets/414a7000-e9e8-405d-a0eb-cf91cdc20603" />
 Como vemos en el log "Failed password for invalid user" (Evidencia tecnica)
 
-Fase 4. - Alerta en Wazuh
+:four: Fase 4. - Alerta en Wazuh
 <img width="1896" height="337" alt="imagen" src="https://github.com/user-attachments/assets/0bb7a809-e553-4b6c-93f7-5bd9532696d3" />
 
-Fase 5. - Análisis SOC (Documentación)
+:five: Fase 5. - Análisis SOC (Documentación)
 Incident Sumary:
  - Type: SSH Brute Force
  - Source IP: <img width="479" height="45" alt="imagen" src="https://github.com/user-attachments/assets/7083a77e-88dd-4ad0-8ede-e0536aa582c6" />
